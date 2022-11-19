@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="be.intecbrussel.MessageServiceTest" time="0.052" tests="12" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="19"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/schyvensjim/Documents/Dev/intecBrussel/JunitTesting/JUnitLab_2/target/test-classes:/Users/schyvensjim/Documents/Dev/intecBrussel/JunitTesting/JUnitLab_2/target/classes:/Users/schyvensjim/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar:/Users/schyvensjim/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/schyvensjim/.m2/repository/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar:/Users/schyvensjim/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/schyvensjim/.m2/repository/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar:/Users/schyvensjim/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BE"/>
+    <property name="sun.boot.library.path" value="/Users/schyvensjim/Library/Java/JavaVirtualMachines/openjdk-19.0.1/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/schyvensjim/Documents/Dev/intecBrussel/JunitTesting/JUnitLab_2/target/surefire/surefirebooter17592704359671566358.jar /Users/schyvensjim/Documents/Dev/intecBrussel/JunitTesting/JUnitLab_2/target/surefire 2022-11-19T15-14-45_166-jvmRun1 surefire17768935676332168902tmp surefire_014013744092594739810tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/schyvensjim/Documents/Dev/intecBrussel/JunitTesting/JUnitLab_2/target/test-classes:/Users/schyvensjim/Documents/Dev/intecBrussel/JunitTesting/JUnitLab_2/target/classes:/Users/schyvensjim/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar:/Users/schyvensjim/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/schyvensjim/.m2/repository/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar:/Users/schyvensjim/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/schyvensjim/.m2/repository/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar:/Users/schyvensjim/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/schyvensjim"/>
+    <property name="user.language" value="nl"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="/Users/schyvensjim/Library/Java/JavaVirtualMachines/openjdk-19.0.1/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/schyvensjim/Documents/Dev/intecBrussel/JunitTesting/JUnitLab_2"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/schyvensjim/Documents/Dev/intecBrussel/JunitTesting/JUnitLab_2/target/surefire/surefirebooter17592704359671566358.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="19.0.1+10-21"/>
+    <property name="user.name" value="schyvensjim"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.5.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/schyvensjim/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/vk/q63p3z410tn_y0hnp9g2f6l80000gn/T/"/>
+    <property name="java.version" value="19.0.1"/>
+    <property name="user.dir" value="/Users/schyvensjim/Documents/Dev/intecBrussel/JunitTesting/JUnitLab_2"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/schyvensjim/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="19.0.1+10-21"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="63.0"/>
+  </properties>
+  <testcase name="sendShouldFailWhenFromIsNull" classname="be.intecbrussel.MessageServiceTest" time="0.014"/>
+  <testcase name="sendShouldFailWhenToIsNull" classname="be.intecbrussel.MessageServiceTest" time="0.001"/>
+  <testcase name="getByFromShouldFailNoCorrectAtSignIsInEmail" classname="be.intecbrussel.MessageServiceTest" time="0.001"/>
+  <testcase name="getByFromShouldFailNoCorrectPointIsInEmail" classname="be.intecbrussel.MessageServiceTest" time="0"/>
+  <testcase name="getByFromShouldFailWhenNUll" classname="be.intecbrussel.MessageServiceTest" time="0.001"/>
+  <testcase name="sendShouldFailWhenHeaderIsNull" classname="be.intecbrussel.MessageServiceTest" time="0"/>
+  <testcase name="sendShouldFailWhenToEmailHasNoPoint" classname="be.intecbrussel.MessageServiceTest" time="0"/>
+  <testcase name="sendShouldFailWhenFromEmailHasNoPoint" classname="be.intecbrussel.MessageServiceTest" time="0.001"/>
+  <testcase name="sendShouldFailWhenBodyIsNull" classname="be.intecbrussel.MessageServiceTest" time="0.001"/>
+  <testcase name="sendShouldFailWhenToEmailHasNoAtSign" classname="be.intecbrussel.MessageServiceTest" time="0.001"/>
+  <testcase name="sendShouldFailWhenFromEmailHasNoAtSign" classname="be.intecbrussel.MessageServiceTest" time="0"/>
+  <testcase name="testGetAll" classname="be.intecbrussel.MessageServiceTest" time="0.011">
+    <failure message="more actual lines than expected: 1100 ==&gt; expected: &lt;&#10;Message: {&#10;From: sender0@mail.be&#10;To: receiver0@mail.be&#10;Header: header 0&#10;Bodybody 0&#10;}&#10;Message: {&#10;From: sender1@mail.be&#10;To: receiver1@mail.be&#10;Header: header 1&#10;Bodybody 1&#10;}&#10;Message: {&#10;From: sender2@mail.be&#10;To: receiver2@mail.be&#10;Header: header 2&#10;Bodybody 2&#10;}&#10;Message: {&#10;From: sender3@mail.be&#10;To: receiver3@mail.be&#10;Header: header 3&#10;Bodybody 3&#10;}&#10;Message: {&#10;From: sender4@mail.be&#10;To: receiver4@mail.be&#10;Header: header 4&#10;Bodybody 4&#10;}&#10;Message: {&#10;From: sender5@mail.be&#10;To: receiver5@mail.be&#10;Header: header 5&#10;Bodybody 5&#10;}&#10;Message: {&#10;From: sender6@mail.be&#10;To: receiver6@mail.be&#10;Header: header 6&#10;Bodybody 6&#10;}&#10;Message: {&#10;From: sender7@mail.be&#10;To: receiver7@mail.be&#10;Header: header 7&#10;Bodybody 7&#10;}&#10;Message: {&#10;From: sender8@mail.be&#10;To: receiver8@mail.be&#10;Header: header 8&#10;Bodybody 8&#10;}&#10;Message: {&#10;From: sender9@mail.be&#10;To: receiver9@mail.be&#10;Header: header 9&#10;Bodybody 9&#10;}&#10;Message: {&#10;From: sender10@mail.be&#10;To: receiver10@mail.be&#10;Header: header 10&#10;Bodybody 10&#10;}&#10;Message: {&#10;From: sender11@mail.be&#10;To: receiver11@mail.be&#10;Header: header 11&#10;Bodybody 11&#10;}&#10;Message: {&#10;From: sender12@mail.be&#10;To: receiver12@mail.be&#10;Header: header 12&#10;Bodybody 12&#10;}&#10;Message: {&#10;From: sender13@mail.be&#10;To: receiver13@mail.be&#10;Header: header 13&#10;Bodybody 13&#10;}&#10;Message: {&#10;From: sender14@mail.be&#10;To: receiver14@mail.be&#10;Header: header 14&#10;Bodybody 14&#10;}&#10;Message: {&#10;From: sender15@mail.be&#10;To: receiver15@mail.be&#10;Header: header 15&#10;Bodybody 15&#10;}&#10;Message: {&#10;From: sender16@mail.be&#10;To: receiver16@mail.be&#10;Header: header 16&#10;Bodybody 16&#10;}&#10;Message: {&#10;From: sender17@mail.be&#10;To: receiver17@mail.be&#10;Header: header 17&#10;Bodybody 17&#10;}&#10;Message: {&#10;From: sender18@mail.be&#10;To: receiver18@mail.be&#10;Header: header 18&#10;Bodybody 18&#10;}&#10;Message: {&#10;From: sender19@mail.be&#10;To: receiver19@mail.be&#10;Header: header 19&#10;Bodybody 19&#10;}&#10;Message: {&#10;From: sender20@mail.be&#10;To: receiver20@mail.be&#10;Header: header 20&#10;Bodybody 20&#10;}&#10;Message: {&#10;From: sender21@mail.be&#10;To: receiver21@mail.be&#10;Header: header 21&#10;Bodybody 21&#10;}&#10;Message: {&#10;From: sender22@mail.be&#10;To: receiver22@mail.be&#10;Header: header 22&#10;Bodybody 22&#10;}&#10;Message: {&#10;From: sender23@mail.be&#10;To: receiver23@mail.be&#10;Header: header 23&#10;Bodybody 23&#10;}&#10;Message: {&#10;From: sender24@mail.be&#10;To: receiver24@mail.be&#10;Header: header 24&#10;Bodybody 24&#10;}&#10;Message: {&#10;From: sender25@mail.be&#10;To: receiver25@mail.be&#10;Header: header 25&#10;Bodybody 25&#10;}&#10;Message: {&#10;From: sender26@mail.be&#10;To: receiver26@mail.be&#10;Header: header 26&#10;Bodybody 26&#10;}&#10;Message: {&#10;From: sender27@mail.be&#10;To: receiver27@mail.be&#10;Header: header 27&#10;Bodybody 27&#10;}&#10;Message: {&#10;From: sender28@mail.be&#10;To: receiver28@mail.be&#10;Header: header 28&#10;Bodybody 28&#10;}&#10;Message: {&#10;From: sender29@mail.be&#10;To: receiver29@mail.be&#10;Header: header 29&#10;Bodybody 29&#10;}&#10;Message: {&#10;From: sender30@mail.be&#10;To: receiver30@mail.be&#10;Header: header 30&#10;Bodybody 30&#10;}&#10;Message: {&#10;From: sender31@mail.be&#10;To: receiver31@mail.be&#10;Header: header 31&#10;Bodybody 31&#10;}&#10;Message: {&#10;From: sender32@mail.be&#10;To: receiver32@mail.be&#10;Header: header 32&#10;Bodybody 32&#10;}&#10;Message: {&#10;From: sender33@mail.be&#10;To: receiver33@mail.be&#10;Header: header 33&#10;Bodybody 33&#10;}&#10;Message: {&#10;From: sender34@mail.be&#10;To: receiver34@mail.be&#10;Header: header 34&#10;Bodybody 34&#10;}&#10;Message: {&#10;From: sender35@mail.be&#10;To: receiver35@mail.be&#10;Header: header 35&#10;Bodybody 35&#10;}&#10;Message: {&#10;From: sender36@mail.be&#10;To: receiver36@mail.be&#10;Header: header 36&#10;Bodybody 36&#10;}&#10;Message: {&#10;From: sender37@mail.be&#10;To: receiver37@mail.be&#10;Header: header 37&#10;Bodybody 37&#10;}&#10;Message: {&#10;From: sender38@mail.be&#10;To: receiver38@mail.be&#10;Header: header 38&#10;Bodybody 38&#10;}&#10;Message: {&#10;From: sender39@mail.be&#10;To: receiver39@mail.be&#10;Header: header 39&#10;Bodybody 39&#10;}&#10;Message: {&#10;From: sender40@mail.be&#10;To: receiver40@mail.be&#10;Header: header 40&#10;Bodybody 40&#10;}&#10;Message: {&#10;From: sender41@mail.be&#10;To: receiver41@mail.be&#10;Header: header 41&#10;Bodybody 41&#10;}&#10;[omitted 58 line(s)]&#10;&gt; but was: &lt;&#10;Message: {&#10;From: sender0@mail.be&#10;To: receiver0@mail.be&#10;Header: header 0&#10;Bodybody 0&#10;}&#10;Message: {&#10;From: sender1@mail.be&#10;To: receiver1@mail.be&#10;Header: header 1&#10;Bodybody 1&#10;}&#10;Message: {&#10;From: sender2@mail.be&#10;To: receiver2@mail.be&#10;Header: header 2&#10;Bodybody 2&#10;}&#10;Message: {&#10;From: sender3@mail.be&#10;To: receiver3@mail.be&#10;Header: header 3&#10;Bodybody 3&#10;}&#10;Message: {&#10;From: sender4@mail.be&#10;To: receiver4@mail.be&#10;Header: header 4&#10;Bodybody 4&#10;}&#10;Message: {&#10;From: sender5@mail.be&#10;To: receiver5@mail.be&#10;Header: header 5&#10;Bodybody 5&#10;}&#10;Message: {&#10;From: sender6@mail.be&#10;To: receiver6@mail.be&#10;Header: header 6&#10;Bodybody 6&#10;}&#10;Message: {&#10;From: sender7@mail.be&#10;To: receiver7@mail.be&#10;Header: header 7&#10;Bodybody 7&#10;}&#10;Message: {&#10;From: sender8@mail.be&#10;To: receiver8@mail.be&#10;Header: header 8&#10;Bodybody 8&#10;}&#10;Message: {&#10;From: sender9@mail.be&#10;To: receiver9@mail.be&#10;Header: header 9&#10;Bodybody 9&#10;}&#10;Message: {&#10;From: sender10@mail.be&#10;To: receiver10@mail.be&#10;Header: header 10&#10;Bodybody 10&#10;}&#10;Message: {&#10;From: sender11@mail.be&#10;To: receiver11@mail.be&#10;Header: header 11&#10;Bodybody 11&#10;}&#10;Message: {&#10;From: sender12@mail.be&#10;To: receiver12@mail.be&#10;Header: header 12&#10;Bodybody 12&#10;}&#10;Message: {&#10;From: sender13@mail.be&#10;To: receiver13@mail.be&#10;Header: header 13&#10;Bodybody 13&#10;}&#10;Message: {&#10;From: sender14@mail.be&#10;To: receiver14@mail.be&#10;Header: header 14&#10;Bodybody 14&#10;}&#10;Message: {&#10;From: sender15@mail.be&#10;To: receiver15@mail.be&#10;Header: header 15&#10;Bodybody 15&#10;}&#10;Message: {&#10;From: sender16@mail.be&#10;To: receiver16@mail.be&#10;Header: header 16&#10;Bodybody 16&#10;}&#10;Message: {&#10;From: sender17@mail.be&#10;To: receiver17@mail.be&#10;Header: header 17&#10;Bodybody 17&#10;}&#10;Message: {&#10;From: sender18@mail.be&#10;To: receiver18@mail.be&#10;Header: header 18&#10;Bodybody 18&#10;}&#10;Message: {&#10;From: sender19@mail.be&#10;To: receiver19@mail.be&#10;Header: header 19&#10;Bodybody 19&#10;}&#10;Message: {&#10;From: sender20@mail.be&#10;To: receiver20@mail.be&#10;Header: header 20&#10;Bodybody 20&#10;}&#10;Message: {&#10;From: sender21@mail.be&#10;To: receiver21@mail.be&#10;Header: header 21&#10;Bodybody 21&#10;}&#10;Message: {&#10;From: sender22@mail.be&#10;To: receiver22@mail.be&#10;Header: header 22&#10;Bodybody 22&#10;}&#10;Message: {&#10;From: sender23@mail.be&#10;To: receiver23@mail.be&#10;Header: header 23&#10;Bodybody 23&#10;}&#10;Message: {&#10;From: sender24@mail.be&#10;To: receiver24@mail.be&#10;Header: header 24&#10;Bodybody 24&#10;}&#10;Message: {&#10;From: sender25@mail.be&#10;To: receiver25@mail.be&#10;Header: header 25&#10;Bodybody 25&#10;}&#10;Message: {&#10;From: sender26@mail.be&#10;To: receiver26@mail.be&#10;Header: header 26&#10;Bodybody 26&#10;}&#10;Message: {&#10;From: sender27@mail.be&#10;To: receiver27@mail.be&#10;Header: header 27&#10;Bodybody 27&#10;}&#10;Message: {&#10;From: sender28@mail.be&#10;To: receiver28@mail.be&#10;Header: header 28&#10;Bodybody 28&#10;}&#10;Message: {&#10;From: sender29@mail.be&#10;To: receiver29@mail.be&#10;Header: header 29&#10;Bodybody 29&#10;}&#10;Message: {&#10;From: sender30@mail.be&#10;To: receiver30@mail.be&#10;Header: header 30&#10;Bodybody 30&#10;}&#10;Message: {&#10;From: sender31@mail.be&#10;To: receiver31@mail.be&#10;Header: header 31&#10;Bodybody 31&#10;}&#10;Message: {&#10;From: sender32@mail.be&#10;To: receiver32@mail.be&#10;Header: header 32&#10;Bodybody 32&#10;}&#10;Message: {&#10;From: sender33@mail.be&#10;To: receiver33@mail.be&#10;Header: header 33&#10;Bodybody 33&#10;}&#10;Message: {&#10;From: sender34@mail.be&#10;To: receiver34@mail.be&#10;Header: header 34&#10;Bodybody 34&#10;}&#10;Message: {&#10;From: sender35@mail.be&#10;To: receiver35@mail.be&#10;Header: header 35&#10;Bodybody 35&#10;}&#10;Message: {&#10;From: sender36@mail.be&#10;To: receiver36@mail.be&#10;Header: header 36&#10;Bodybody 36&#10;}&#10;Message: {&#10;From: sender37@mail.be&#10;To: receiver37@mail.be&#10;Header: header 37&#10;Bodybody 37&#10;}&#10;Message: {&#10;From: sender38@mail.be&#10;To: receiver38@mail.be&#10;Header: header 38&#10;Bodybody 38&#10;}&#10;Message: {&#10;From: sender39@mail.be&#10;To: receiver39@mail.be&#10;Header: header 39&#10;Bodybody 39&#10;}&#10;Message: {&#10;From: sender40@mail.be&#10;To: receiver40@mail.be&#10;Header: header 40&#10;Bodybody 40&#10;}&#10;Message: {&#10;From: sender41@mail.be&#10;To: receiver41@mail.be&#10;Header: header 41&#10;Bodybody 41&#10;}&#10;[omitted 1158 line(s)]&#10;&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
+more actual lines than expected: 1100 ==> expected: <
+Message: {
+From: sender0@mail.be
+To: receiver0@mail.be
+Header: header 0
+Bodybody 0
+}
+Message: {
+From: sender1@mail.be
+To: receiver1@mail.be
+Header: header 1
+Bodybody 1
+}
+Message: {
+From: sender2@mail.be
+To: receiver2@mail.be
+Header: header 2
+Bodybody 2
+}
+Message: {
+From: sender3@mail.be
+To: receiver3@mail.be
+Header: header 3
+Bodybody 3
+}
+Message: {
+From: sender4@mail.be
+To: receiver4@mail.be
+Header: header 4
+Bodybody 4
+}
+Message: {
+From: sender5@mail.be
+To: receiver5@mail.be
+Header: header 5
+Bodybody 5
+}
+Message: {
+From: sender6@mail.be
+To: receiver6@mail.be
+Header: header 6
+Bodybody 6
+}
+Message: {
+From: sender7@mail.be
+To: receiver7@mail.be
+Header: header 7
+Bodybody 7
+}
+Message: {
+From: sender8@mail.be
+To: receiver8@mail.be
+Header: header 8
+Bodybody 8
+}
+Message: {
+From: sender9@mail.be
+To: receiver9@mail.be
+Header: header 9
+Bodybody 9
+}
+Message: {
+From: sender10@mail.be
+To: receiver10@mail.be
+Header: header 10
+Bodybody 10
+}
+Message: {
+From: sender11@mail.be
+To: receiver11@mail.be
+Header: header 11
+Bodybody 11
+}
+Message: {
+From: sender12@mail.be
+To: receiver12@mail.be
+Header: header 12
+Bodybody 12
+}
+Message: {
+From: sender13@mail.be
+To: receiver13@mail.be
+Header: header 13
+Bodybody 13
+}
+Message: {
+From: sender14@mail.be
+To: receiver14@mail.be
+Header: header 14
+Bodybody 14
+}
+Message: {
+From: sender15@mail.be
+To: receiver15@mail.be
+Header: header 15
+Bodybody 15
+}
+Message: {
+From: sender16@mail.be
+To: receiver16@mail.be
+Header: header 16
+Bodybody 16
+}
+Message: {
+From: sender17@mail.be
+To: receiver17@mail.be
+Header: header 17
+Bodybody 17
+}
+Message: {
+From: sender18@mail.be
+To: receiver18@mail.be
+Header: header 18
+Bodybody 18
+}
+Message: {
+From: sender19@mail.be
+To: receiver19@mail.be
+Header: header 19
+Bodybody 19
+}
+Message: {
+From: sender20@mail.be
+To: receiver20@mail.be
+Header: header 20
+Bodybody 20
+}
+Message: {
+From: sender21@mail.be
+To: receiver21@mail.be
+Header: header 21
+Bodybody 21
+}
+Message: {
+From: sender22@mail.be
+To: receiver22@mail.be
+Header: header 22
+Bodybody 22
+}
+Message: {
+From: sender23@mail.be
+To: receiver23@mail.be
+Header: header 23
+Bodybody 23
+}
+Message: {
+From: sender24@mail.be
+To: receiver24@mail.be
+Header: header 24
+Bodybody 24
+}
+Message: {
+From: sender25@mail.be
+To: receiver25@mail.be
+Header: header 25
+Bodybody 25
+}
+Message: {
+From: sender26@mail.be
+To: receiver26@mail.be
+Header: header 26
+Bodybody 26
+}
+Message: {
+From: sender27@mail.be
+To: receiver27@mail.be
+Header: header 27
+Bodybody 27
+}
+Message: {
+From: sender28@mail.be
+To: receiver28@mail.be
+Header: header 28
+Bodybody 28
+}
+Message: {
+From: sender29@mail.be
+To: receiver29@mail.be
+Header: header 29
+Bodybody 29
+}
+Message: {
+From: sender30@mail.be
+To: receiver30@mail.be
+Header: header 30
+Bodybody 30
+}
+Message: {
+From: sender31@mail.be
+To: receiver31@mail.be
+Header: header 31
+Bodybody 31
+}
+Message: {
+From: sender32@mail.be
+To: receiver32@mail.be
+Header: header 32
+Bodybody 32
+}
+Message: {
+From: sender33@mail.be
+To: receiver33@mail.be
+Header: header 33
+Bodybody 33
+}
+Message: {
+From: sender34@mail.be
+To: receiver34@mail.be
+Header: header 34
+Bodybody 34
+}
+Message: {
+From: sender35@mail.be
+To: receiver35@mail.be
+Header: header 35
+Bodybody 35
+}
+Message: {
+From: sender36@mail.be
+To: receiver36@mail.be
+Header: header 36
+Bodybody 36
+}
+Message: {
+From: sender37@mail.be
+To: receiver37@mail.be
+Header: header 37
+Bodybody 37
+}
+Message: {
+From: sender38@mail.be
+To: receiver38@mail.be
+Header: header 38
+Bodybody 38
+}
+Message: {
+From: sender39@mail.be
+To: receiver39@mail.be
+Header: header 39
+Bodybody 39
+}
+Message: {
+From: sender40@mail.be
+To: receiver40@mail.be
+Header: header 40
+Bodybody 40
+}
+Message: {
+From: sender41@mail.be
+To: receiver41@mail.be
+Header: header 41
+Bodybody 41
+}
+[omitted 58 line(s)]
+> but was: <
+Message: {
+From: sender0@mail.be
+To: receiver0@mail.be
+Header: header 0
+Bodybody 0
+}
+Message: {
+From: sender1@mail.be
+To: receiver1@mail.be
+Header: header 1
+Bodybody 1
+}
+Message: {
+From: sender2@mail.be
+To: receiver2@mail.be
+Header: header 2
+Bodybody 2
+}
+Message: {
+From: sender3@mail.be
+To: receiver3@mail.be
+Header: header 3
+Bodybody 3
+}
+Message: {
+From: sender4@mail.be
+To: receiver4@mail.be
+Header: header 4
+Bodybody 4
+}
+Message: {
+From: sender5@mail.be
+To: receiver5@mail.be
+Header: header 5
+Bodybody 5
+}
+Message: {
+From: sender6@mail.be
+To: receiver6@mail.be
+Header: header 6
+Bodybody 6
+}
+Message: {
+From: sender7@mail.be
+To: receiver7@mail.be
+Header: header 7
+Bodybody 7
+}
+Message: {
+From: sender8@mail.be
+To: receiver8@mail.be
+Header: header 8
+Bodybody 8
+}
+Message: {
+From: sender9@mail.be
+To: receiver9@mail.be
+Header: header 9
+Bodybody 9
+}
+Message: {
+From: sender10@mail.be
+To: receiver10@mail.be
+Header: header 10
+Bodybody 10
+}
+Message: {
+From: sender11@mail.be
+To: receiver11@mail.be
+Header: header 11
+Bodybody 11
+}
+Message: {
+From: sender12@mail.be
+To: receiver12@mail.be
+Header: header 12
+Bodybody 12
+}
+Message: {
+From: sender13@mail.be
+To: receiver13@mail.be
+Header: header 13
+Bodybody 13
+}
+Message: {
+From: sender14@mail.be
+To: receiver14@mail.be
+Header: header 14
+Bodybody 14
+}
+Message: {
+From: sender15@mail.be
+To: receiver15@mail.be
+Header: header 15
+Bodybody 15
+}
+Message: {
+From: sender16@mail.be
+To: receiver16@mail.be
+Header: header 16
+Bodybody 16
+}
+Message: {
+From: sender17@mail.be
+To: receiver17@mail.be
+Header: header 17
+Bodybody 17
+}
+Message: {
+From: sender18@mail.be
+To: receiver18@mail.be
+Header: header 18
+Bodybody 18
+}
+Message: {
+From: sender19@mail.be
+To: receiver19@mail.be
+Header: header 19
+Bodybody 19
+}
+Message: {
+From: sender20@mail.be
+To: receiver20@mail.be
+Header: header 20
+Bodybody 20
+}
+Message: {
+From: sender21@mail.be
+To: receiver21@mail.be
+Header: header 21
+Bodybody 21
+}
+Message: {
+From: sender22@mail.be
+To: receiver22@mail.be
+Header: header 22
+Bodybody 22
+}
+Message: {
+From: sender23@mail.be
+To: receiver23@mail.be
+Header: header 23
+Bodybody 23
+}
+Message: {
+From: sender24@mail.be
+To: receiver24@mail.be
+Header: header 24
+Bodybody 24
+}
+Message: {
+From: sender25@mail.be
+To: receiver25@mail.be
+Header: header 25
+Bodybody 25
+}
+Message: {
+From: sender26@mail.be
+To: receiver26@mail.be
+Header: header 26
+Bodybody 26
+}
+Message: {
+From: sender27@mail.be
+To: receiver27@mail.be
+Header: header 27
+Bodybody 27
+}
+Message: {
+From: sender28@mail.be
+To: receiver28@mail.be
+Header: header 28
+Bodybody 28
+}
+Message: {
+From: sender29@mail.be
+To: receiver29@mail.be
+Header: header 29
+Bodybody 29
+}
+Message: {
+From: sender30@mail.be
+To: receiver30@mail.be
+Header: header 30
+Bodybody 30
+}
+Message: {
+From: sender31@mail.be
+To: receiver31@mail.be
+Header: header 31
+Bodybody 31
+}
+Message: {
+From: sender32@mail.be
+To: receiver32@mail.be
+Header: header 32
+Bodybody 32
+}
+Message: {
+From: sender33@mail.be
+To: receiver33@mail.be
+Header: header 33
+Bodybody 33
+}
+Message: {
+From: sender34@mail.be
+To: receiver34@mail.be
+Header: header 34
+Bodybody 34
+}
+Message: {
+From: sender35@mail.be
+To: receiver35@mail.be
+Header: header 35
+Bodybody 35
+}
+Message: {
+From: sender36@mail.be
+To: receiver36@mail.be
+Header: header 36
+Bodybody 36
+}
+Message: {
+From: sender37@mail.be
+To: receiver37@mail.be
+Header: header 37
+Bodybody 37
+}
+Message: {
+From: sender38@mail.be
+To: receiver38@mail.be
+Header: header 38
+Bodybody 38
+}
+Message: {
+From: sender39@mail.be
+To: receiver39@mail.be
+Header: header 39
+Bodybody 39
+}
+Message: {
+From: sender40@mail.be
+To: receiver40@mail.be
+Header: header 40
+Bodybody 40
+}
+Message: {
+From: sender41@mail.be
+To: receiver41@mail.be
+Header: header 41
+Bodybody 41
+}
+[omitted 1158 line(s)]
+>
+	at be.intecbrussel.MessageServiceTest.testGetAll(MessageServiceTest.java:32)
+]]></failure>
+  </testcase>
+</testsuite>
